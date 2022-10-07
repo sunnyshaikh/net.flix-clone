@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone - HTML | CSS | JS</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- hero -->
+  <section class="hero">
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="./" class="logo">
+        <img src="./images/logo.svg" alt="Netflix">
+      </a>
+      <button class="btn">
+        <a href="#">Sign In</a>
+      </button>
+    </nav>
+
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="heading">
+          Unlimited movies, TV shows and more.
+        </h1>
+        <h2 class="sub-heading">Watch anywhere. Cancel anytime.</h2>
+        <form>
+          <p>Ready to watch? Enter your email to create or restart your membership.</p>
+          <div class="email-box">
+            <div class="input-box">
+              <input type="text" id="email" required autocomplete="off">
+              <label for="email">Email address</label>
+            </div>
+            <button class="get-started">Get Started ></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- tv section -->
+  <section class="story-card">
+    <div class="container">
+      <div class="story-card-container">
+        <div class="story-card-text">
+          <h1 class="story-card-title">Enjoy on your TV.</h1>
+          <h2 class="story-card-desc">
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+          </h2>
+        </div>
+
+        <div class="story-card-image tv-card">
+          <img src="./images/tv.png" alt="tv">
+          <div class="in-image-player">
+            <video src="./images/video-tv-in-0819.m4v" loop autoplay muted></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- download card -->
+  <section class="story-card">
+    <div class="container">
+      <div class="story-card-container card-flipped">
+        <div class="story-card-text">
+          <h1 class="story-card-title">Download your shows to watch offline.</h1>
+          <h2 class="story-card-desc">
+            Save your favourites easily and always have something to watch.
+          </h2>
+        </div>
+
+        <div class="story-card-image download-card">
+          <img src="./images/mobile-0819.jpg" alt="children">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- device-pile-in-->
+  <section class="story-card">
+    <div class="container">
+      <div class="story-card-container">
+        <div class="story-card-text">
+          <h1 class="story-card-title">Watch everywhere.</h1>
+          <h2 class="story-card-desc">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+          </h2>
+        </div>
+
+        <div class="story-card-image device-card">
+          <img src="./images/device-pile-in.png" alt="desktop">
+          <div class="in-image-player">
+            <video src="./images/video-devices-in.m4v" loop autoplay muted></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- children profile -->
+  <section class="story-card">
+    <div class="container">
+      <div class="story-card-container card-flipped">
+        <div class="story-card-text">
+          <h1 class="story-card-title">Create profiles for children.</h1>
+          <h2 class="story-card-desc">
+            Send children on adventures with their favourite characters in a space made just for them—free with your
+            membership.
+          </h2>
+        </div>
+
+        <div class="story-card-image children-card">
+          <img src="./images/children.png" alt="children">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
